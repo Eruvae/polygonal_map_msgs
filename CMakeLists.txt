@@ -9,6 +9,8 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
 set(msg_files
+  "msg/LineMap.msg"
+  "msg/LineSegment.msg"
   "msg/PolygonalMap.msg"
 )
 
